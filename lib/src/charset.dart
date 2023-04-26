@@ -1,9 +1,6 @@
 import 'dart:convert';
 
 import 'code_page.dart';
-import 'euc_jp.dart';
-import 'euc_kr.dart';
-import 'gbk.dart';
 import 'shift_jis.dart';
 import 'utf/utf16.dart';
 import 'utf/utf32.dart';
@@ -343,40 +340,40 @@ class Charset {
     'windows-1258': windows1258,
 
     // euc-jp
-    'euc-jp': eucJp,
-    'eucjp': eucJp,
-    'euc_jp': eucJp,
-    'cseucpkdfmtjapanese': eucJp,
+    // 'euc-jp': eucJp,
+    // 'eucjp': eucJp,
+    // 'euc_jp': eucJp,
+    // 'cseucpkdfmtjapanese': eucJp,
 
-    'euc-kr': eucKr,
-    'euckr': eucKr,
-    'euc_kr': eucKr,
-    'cseuckr': eucKr,
+    // 'euc-kr': eucKr,
+    // 'euckr': eucKr,
+    // 'euc_kr': eucKr,
+    // 'cseuckr': eucKr,
 
-    '949': eucKr,
-    'cp949': eucKr,
-    'cp-949': eucKr,
-    'ms949': eucKr,
-    'windows949': eucKr,
-    'csksc56011987': eucKr,
-    'isoir149': eucKr,
-    'korean': eucKr,
-    'ksc56011987': eucKr,
-    'ksc56011989': eucKr,
-    'ksc5601': eucKr,
+    // '949': eucKr,
+    // 'cp949': eucKr,
+    // 'cp-949': eucKr,
+    // 'ms949': eucKr,
+    // 'windows949': eucKr,
+    // 'csksc56011987': eucKr,
+    // 'isoir149': eucKr,
+    // 'korean': eucKr,
+    // 'ksc56011987': eucKr,
+    // 'ksc56011989': eucKr,
+    // 'ksc5601': eucKr,
 
-    'gbk': gbk,
-    'gb2312': gbk,
-    'gb-2312': gbk,
-    'gb_2312': gbk,
-    'cp936': gbk,
-    'cp-936': gbk,
-    'ms936': gbk,
-    'windows-936': gbk,
-    'csgbk': gbk,
+    // 'gbk': gbk,
+    // 'gb2312': gbk,
+    // 'gb-2312': gbk,
+    // 'gb_2312': gbk,
+    // 'cp936': gbk,
+    // 'cp-936': gbk,
+    // 'ms936': gbk,
+    // 'windows-936': gbk,
+    // 'csgbk': gbk,
 
-    'gb18030': gbk,
-    'csgb18030': gbk,
+    // 'gb18030': gbk,
+    // 'csgb18030': gbk,
 
     'shift-jis': shiftJis,
     'shiftjis': shiftJis,
@@ -409,7 +406,7 @@ class Charset {
     // eucJp,
     // shiftJis,
     // eucKr,
-    gbk,
+    // gbk,
     // windows874,
     // latin1,
     // latin2,

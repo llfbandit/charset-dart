@@ -17,32 +17,12 @@ void main() {
   test('detect', () {
     String text = "上善若水";
 
-    List<int> gbkData = gbk.encode(text);
-    expect(gbk.name, Charset.detect(gbkData)?.name);
-
-    List<int> eucJpData = eucJp.encode(text);
-    expect(
-        eucJp.name,
-        Charset.detect(
-          eucJpData,
-          orders: [ascii, eucJp, latin1],
-        )?.name);
-
     List<int> shiftJisData = shiftJis.encode(text);
     expect(
         shiftJis.name,
         Charset.detect(
           shiftJisData,
           orders: [ascii, shiftJis, latin1],
-        )?.name);
-
-    text = '상선이 물과 같다';
-    List<int> eucKrData = eucKr.encode(text);
-    expect(
-        eucKr.name,
-        Charset.detect(
-          eucKrData,
-          orders: [ascii, eucKr, latin1],
         )?.name);
 
     text = 'ABC55/';
